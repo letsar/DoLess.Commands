@@ -12,7 +12,9 @@ Here are the main features of **DoLess.Commands**:
 
 ## Install
 
-Available on NuGet soon.
+Available on NuGet:
+
+[![NuGet](https://img.shields.io/badge/Nuget-1.0.1-green.svg)](https://www.nuget.org/packages/DoLess.Commands/)
 
 ## Usage
 

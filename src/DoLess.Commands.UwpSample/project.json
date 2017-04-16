@@ -1,5 +1,6 @@
 ﻿{
   "dependencies": {
+    "DoLess.Commands": "1.0.1",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "PropertyChanged.Fody": "1.52.1"
   },
