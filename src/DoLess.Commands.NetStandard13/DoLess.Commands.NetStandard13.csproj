@@ -4,6 +4,10 @@
     <TargetFramework>netstandard1.3</TargetFramework>
     <AssemblyName>DoLess.Commands</AssemblyName>
     <RootNamespace>DoLess.Commands</RootNamespace>
+    <Authors>Romain Rastel</Authors>
+    <Company>Romain Rastel</Company>
+    <Description />
+    <Copyright>©  Romain Rastel</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
