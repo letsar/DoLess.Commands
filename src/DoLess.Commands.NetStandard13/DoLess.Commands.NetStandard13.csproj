@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>DoLess.Commands</AssemblyName>
+    <RootNamespace>DoLess.Commands</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.3\DoLess.Commands.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <Import Project="..\DoLess.Commands.Shared\DoLess.Commands.Shared.projitems" Label="Shared" />
+
+</Project>

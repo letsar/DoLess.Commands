@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3b90ca34-7832-43f6-818f-7dd5ddbd98f9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DoLess.Commands</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Implementations\CancellableCommand.T1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Implementations\CancellableCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Implementations\Command.T1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Implementations\Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICancellableCommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICancellableCommand.T1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICancellableCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Implementations\CommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICommand.T1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ICommandBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Implementations\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Interfaces\" />
+  </ItemGroup>
+</Project>
