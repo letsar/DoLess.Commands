@@ -1,9 +1,9 @@
 ![Logo](./nuget/doless.png)
 
-**DoLess.Commands** is a simple implementation of System.Windows.Input.ICommand. It can be used independently of any other MVVM framework.
+**DoLess.Commands** is a simple implementation of `System.Windows.Input.ICommand`. It can be used independently of any other MVVM framework.
 
 ## Why?
-Here are the main features of DoLess.Commands:
+Here are the main features of **DoLess.Commands**:
 
 - Create commands from `Action`, `Action<T>`, `Func<Task>`, `Func<CancellationToken, Task`, `Func<T, Task>`, `Func<T, CancellationToken, Task`.
 - The execution logic runs on the same thread as the caller (typically the UI Thread).
