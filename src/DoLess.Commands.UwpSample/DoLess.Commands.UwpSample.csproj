@@ -130,9 +130,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DoLess.Commands.NetStandard13\DoLess.Commands.NetStandard13.csproj">
-      <Project>{e6ba9687-7c76-4850-bbfe-626625c9093d}</Project>
-      <Name>DoLess.Commands.NetStandard13</Name>
+    <ProjectReference Include="..\DoLess.Commands.Pcl\DoLess.Commands.Pcl.csproj">
+      <Project>{7c7a6523-0c82-4643-a684-e80c23916379}</Project>
+      <Name>DoLess.Commands.Pcl</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
