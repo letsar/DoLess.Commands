@@ -14,6 +14,10 @@
     <DocumentationFile>bin\Debug\netstandard1.3\DoLess.Commands.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.3\DoLess.Commands.xml</DocumentationFile>
+  </PropertyGroup>
+
   <Import Project="..\DoLess.Commands.Shared\DoLess.Commands.Shared.projitems" Label="Shared" />
 
 </Project>
