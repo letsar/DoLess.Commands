@@ -1,7 +1,13 @@
 assembly-versioning-scheme: MajorMinorPatch
-mode: ContinuousDeployment
+assembly-informational-format: '{NuGetVersion}'
+mode: ContinuousDelivery
+tag-prefix: '[vV]'
+continuous-delivery-fallback-tag: ci
 branches:
   master:
-    mode: ContinuousDeployment
+    regex: master
+    mode: ContinuousDelivery
+    tag: ''
+    increment: Patch
 ignore:
   sha: []
