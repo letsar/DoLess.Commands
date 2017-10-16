@@ -3,7 +3,7 @@
 	<metadata>
 		<id>DoLess.Commands</id>
 		<version>$version$</version>
-		<title>DoLess : Commands</title>
+		<title>DoLess.Commands</title>
 		<authors>Romain Rastel</authors>
 		<owners>Romain Rastel</owners>
 		<licenseUrl>https://github.com/letsar/DoLess.Commands/blob/master/LICENSE</licenseUrl>
@@ -15,9 +15,9 @@
 	</metadata>
 	<files>
 		<!-- Portable -->
-		<file src="..\src\DoLess.Commands.Pcl\bin\Release\DoLess.Commands.dll" target="lib\portable-net45+win8\DoLess.Commands.dll" />
-		<file src="..\src\DoLess.Commands.Pcl\bin\Release\DoLess.Commands.xml" target="lib\portable-net45+win8\DoLess.Commands.xml" />
-		
+		<file src="..\src\DoLess.Commands.Pcl\bin\Release\DoLess.Commands.dll" target="lib\portable-net45+win8+wpa81\DoLess.Commands.dll" />
+		<file src="..\src\DoLess.Commands.Pcl\bin\Release\DoLess.Commands.xml" target="lib\portable-net45+win8+wpa81\DoLess.Commands.xml" />
+
 		<!-- .NET Standard 1.3 -->
 		<file src="..\src\DoLess.Commands.NetStandard13\bin\Release\netstandard1.3\DoLess.Commands.dll" target="lib\netstandard1.3\DoLess.Commands.dll" />
 		<file src="..\src\DoLess.Commands.NetStandard13\bin\Release\netstandard1.3\DoLess.Commands.xml" target="lib\netstandard1.3\DoLess.Commands.xml" />
