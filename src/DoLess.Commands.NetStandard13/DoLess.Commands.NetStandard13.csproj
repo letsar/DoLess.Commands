@@ -8,6 +8,8 @@
     <Company>Romain Rastel</Company>
     <Description />
     <Copyright>©  Romain Rastel</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -17,6 +19,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DocumentationFile>bin\Release\netstandard1.3\DoLess.Commands.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
 
   <Import Project="..\DoLess.Commands.Shared\DoLess.Commands.Shared.projitems" Label="Shared" />
 
